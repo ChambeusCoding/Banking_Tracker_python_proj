@@ -1,0 +1,25 @@
+{
+    "Starting amount": [
+        {
+            "amount": 656,
+            "hire date": "2025-03-5",
+            "amount surplus": "253.56"
+        }
+    ],
+    "income": [
+        {
+            "amount": 162,
+            "per": "2 Weeks",
+            "date": "2025-03-5",
+            "source": "Salary"
+        }
+    ],
+    "expenses": [
+        {
+            "amount": 67.21,
+            "date": "March",
+            "category": "Food",
+            "description": "Fast food and other stuff I wanted"
+        }
+    ]
+}
