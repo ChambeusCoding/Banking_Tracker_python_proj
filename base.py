@@ -89,6 +89,25 @@ if __name__ == "__main__":
         amount = input("How much expenses do want to add?: ")
         try:
             amount = float(amount)
-            add_expenses(amount, 
+            add_expenses(amount, "Food")
+        except ValueError:
+            print("Please enter a valid number for the amount.")
+    elif response == "no" or response == "y":
+        print("Exiting the program.")
+        sys.exit() # Exit program again
+    else:
+        print("Invalid input. Please enter 'yes' or 'no'.")
+
+
+#Channel log -1
+##Add calculator to all budget surplus and expenses for accounting and numbers purposes.
+###Note: Not finished yet;
+####-Add calculator
+####-Add daily budget planner
+####-Add car savings and goals budget data saving planner
+#####(Add all to the json information database)
+#####All information should eventually be encrypted and mmoved to a json infermational database file for compilation
+
+##Channel log -2
 
 
