@@ -97,6 +97,8 @@ if __name__ == "__main__":
         sys.exit() # Exit program again
     else:
         print("Invalid input. Please enter 'yes' or 'no'.")
+        
+    
 
 
 #Channel log -1
