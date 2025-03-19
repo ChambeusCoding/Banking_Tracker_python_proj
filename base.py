@@ -77,8 +77,18 @@ if __name__ == "__main__":
             add_income(amount, "Salary")  # Call the correct add_income function
         except ValueError:
             print("Please enter a valid number for the amount.")
-    elif response == "no":
+    elif response == "no" or response == "y":
         print("Exiting the program.")
         sys.exit()  # Exit the program
     else:
         print("Invalid input. Please enter 'yes' or 'no'.")
+
+    response = input("Do you want to add expenses to budget? (yes/no): ").strip().lower()
+
+    if response == "yes" or response == "y":
+        amount = input("How much expenses do want to add?: ")
+        try:
+            amount = float(amount)
+            add_expenses(amount, 
+
+
