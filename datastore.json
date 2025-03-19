@@ -6,20 +6,22 @@
             "amount surplus": "253.56"
         }
     ],
-    "income": [
-        {
-            "amount": 162,
-            "per": "2 Weeks",
-            "date": "2025-03-5",
-            "source": "Salary"
-        }
-    ],
+    "income": 23.0,
     "expenses": [
         {
             "amount": 67.21,
             "date": "March",
             "category": "Food",
             "description": "Fast food and other stuff I wanted"
+        },
+        {
+            "amount": 45.0,
+            "date": "2025-03-19",
+            "category": "Food",
+            "description": "idk"
         }
+    ],
+    "monthly budget": [
+        {}
     ]
 }
